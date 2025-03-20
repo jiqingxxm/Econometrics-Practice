@@ -1,0 +1,30 @@
+# VS Code 配置文件
+.vscode/
+
+# Python 虚拟环境
+myenv_econ/
+
+# Python 缓存文件
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.env
+.venv
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 系统文件
+.DS_Store
