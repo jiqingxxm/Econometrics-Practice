@@ -44,18 +44,37 @@
 
 ### 🗂 项目结构 / Project Structure
 
+| 课程编号 / Course      | 文件 / Files         | 主题 / Topics                    |
+|-----------------------|---------------------|----------------------------------|
+| L1 - Python 基础      | L1_test.py         | Python 语法基础测试               |
+| L2 - Jupyter 基础     | L2_notebook.ipynb  | Jupyter Notebook 基本操作         |
+| L3 - OLS 方法         | L3a_ols.ipynb      | OLS 方法实现与推导                |
+|                      | L3b_ols.ipynb      | OLS 实证应用                     |
+| L4 - 工具变量方法      | L4a_2sls.ipynb     | 2SLS 方法实现与推导              |
+|                      | L4b_2sls.ipynb     | 2SLS 实证应用                    |
+| L5 - GMM 方法         | L5a_gmm.ipynb      | GMM 方法实现与推导               |
+|                      | L5b_gmm.ipynb      | GMM 实证应用                     |
+| L7 - 标准误差估计      | L7a_se.ipynb       | 稳健标准误差推导                 |
+|                      | L7b_hw1.ipynb      | 第一次作业                       |
+| L8 - GLS 方法         | L8a_gls.ipynb      | GLS 方法实现与应用               |
+
 ```tree
 Econ_Projects/
 ├── 能源数据分析实践_2025/    # 主要练习代码
-│   ├── public/             # 公开发布的内容
-│   │   ├── notebooks/     # 练习题目
-│   │   └── data/         # 数据集
-│   ├── private/           # 私人文件夹（不同步到GitHub）
-│   └── [课程文件]          # 按课程编号排序的实践文件
-├── .vscode/               # VS Code 配置
-├── .gitignore            # Git 忽略文件
-├── LICENSE               # 许可证文件
-└── README.md             # 项目说明
+│   ├── L1_test.py          # Python 基础测试
+│   ├── L2_notebook.ipynb   # Jupyter 基础操作
+│   ├── L3a_ols.ipynb      # OLS 方法实现
+│   ├── L3b_ols.ipynb      # OLS 方法应用
+│   ├── L4a_2sls.ipynb     # 2SLS 方法实现
+│   ├── L4b_2sls.ipynb     # 2SLS 方法应用
+│   ├── L5a_gmm.ipynb      # GMM 方法实现
+│   ├── L5b_gmm.ipynb      # GMM 方法应用
+│   ├── L7a_se.ipynb       # 标准误差估计
+│   ├── L7b_hw1.ipynb      # 作业1
+│   └── L8a_gls.ipynb      # GLS 方法
+├── .gitignore             # Git 忽略文件
+├── LICENSE                # 许可证文件
+└── README.md              # 项目说明
 ```
 ---
 
@@ -152,27 +171,71 @@ This repository provides practical implementations of econometric methods with r
 
 ### 🗂 Project Structure
 
-(See structure above)
+| Course No.           | Files              | Topics                           |
+|---------------------|--------------------|---------------------------------|
+| L1 - Python Basics  | L1_test.py        | Python Syntax Testing           |
+| L2 - Jupyter Basics | L2_notebook.ipynb | Jupyter Notebook Operations     |
+| L3 - OLS Method     | L3a_ols.ipynb     | OLS Implementation & Derivation |
+|                     | L3b_ols.ipynb     | OLS Empirical Applications     |
+| L4 - IV Method      | L4a_2sls.ipynb    | 2SLS Implementation            |
+|                     | L4b_2sls.ipynb    | 2SLS Applications             |
+| L5 - GMM Method     | L5a_gmm.ipynb     | GMM Implementation             |
+|                     | L5b_gmm.ipynb     | GMM Applications              |
+| L7 - SE Estimation  | L7a_se.ipynb      | Robust SE Derivation           |
+|                     | L7b_hw1.ipynb     | First Assignment              |
+| L8 - GLS Method     | L8a_gls.ipynb     | GLS Implementation & Apps      |
 
 ---
 
 ### 🧰 Tech Stack
 
-(See table above)
+#### Core Tools
+- Python ≥ 3.8
+- Jupyter Notebook / Jupyter Lab
+
+#### Main Libraries
+
+| Library            | Description                    |
+|-------------------|--------------------------------|
+| pandas            | Data manipulation              |
+| numpy             | Numerical computing            |
+| statsmodels       | Econometric models            |
+| scikit-learn      | ML utilities                  |
+| matplotlib/seaborn| Visualization                  |
 
 ---
 
-
 ### ⚙️ Environment Setup
 
-(See steps above)
+We recommend using Conda virtual environment:
+
+```bash
+conda create -n myenv_econ python=3.8
+conda activate myenv_econ
+conda install pandas numpy statsmodels scikit-learn matplotlib seaborn jupyter
+```
 
 ---
 
 ### 🚀 How to Use
 
-(See instructions above)
+```bash
+# Clone the repository
+git clone git@github.com:jiqingxxm/Econometrics-Practice.git
 
+# Enter the project folder
+cd Econometrics-Practice
+
+# Create and activate conda environment
+conda create -n myenv_econ python=3.8
+conda activate myenv_econ
+
+# Install dependencies
+conda install pandas numpy statsmodels scikit-learn matplotlib seaborn jupyter
+
+# Launch Jupyter
+jupyter notebook
+```
 ---
 
 ### 📌 Notes
