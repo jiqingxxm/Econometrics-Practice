@@ -1,7 +1,7 @@
 # 📊 Econometrics-Practice
 
-> A practical econometrics project focusing on fundamental methods implementation.  
-> 一个专注于计量经济学基础方法实现的实战项目。
+> A hands-on Python implementation of econometric methods with step-by-step tutorials.  
+> 一个基于 Python 的计量经济学方法实现教程，包含详细的代码实践。
 
 <p align="center">
     <a href="#中文">中文</a> | <a href="#english">English</a>
