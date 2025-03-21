@@ -1,7 +1,7 @@
 # 📊 Econometrics-Practice
 
-> A practical econometrics project focusing on applications in energy economics.  
-> 一个聚焦能源经济领域应用的计量经济学实战项目。
+> A practical econometrics project focusing on fundamental methods implementation.  
+> 一个专注于计量经济学基础方法实现的实战项目。
 
 <p align="center">
     <a href="#中文">中文</a> | <a href="#english">English</a>
@@ -30,7 +30,7 @@
 
 ### 📌 项目概览 / Project Overview
 
-本仓库收录了计量经济学方法在能源经济领域中的应用实践，涵盖 OLS、2SLS、GMM、GLS 及空间计量等主流方法，并通过 Python 代码系统实现，适合教学与研究参考。
+本仓库系统性地实现了计量经济学的基础方法，包括 OLS、2SLS、GMM、GLS 等核心估计方法，并通过 Python 代码进行实现，适合教学与研究参考。
 
 本项目系统性地实践了以下计量经济学方法：
 
@@ -38,7 +38,7 @@
 - 两阶段最小二乘法（2SLS）  
 - 广义矩估计（GMM）  
 - 广义最小二乘法（GLS）  
-- 空间计量方法（预留拓展）
+- 面板数据方法（预留拓展）
 
 ---
 
@@ -60,21 +60,21 @@
 
 ```tree
 Econ_Projects/
-├── 能源数据分析实践_2025/    # 主要练习代码
-│   ├── L1_test.py          # Python 基础测试
-│   ├── L2_notebook.ipynb   # Jupyter 基础操作
-│   ├── L3a_ols.ipynb      # OLS 方法实现
-│   ├── L3b_ols.ipynb      # OLS 方法应用
-│   ├── L4a_2sls.ipynb     # 2SLS 方法实现
-│   ├── L4b_2sls.ipynb     # 2SLS 方法应用
-│   ├── L5a_gmm.ipynb      # GMM 方法实现
-│   ├── L5b_gmm.ipynb      # GMM 方法应用
-│   ├── L7a_se.ipynb       # 标准误差估计
-│   ├── L7b_hw1.ipynb      # 作业1
-│   └── L8a_gls.ipynb      # GLS 方法
-├── .gitignore             # Git 忽略文件
-├── LICENSE                # 许可证文件
-└── README.md              # 项目说明
+├── Econometrics_Practice_2025/  # 主要练习代码
+│   ├── L1_test.py              # Python 基础测试
+│   ├── L2_notebook.ipynb       # Jupyter 基础操作
+│   ├── L3a_ols.ipynb          # OLS 方法实现
+│   ├── L3b_ols.ipynb          # OLS 方法应用
+│   ├── L4a_2sls.ipynb         # 2SLS 方法实现
+│   ├── L4b_2sls.ipynb         # 2SLS 方法应用
+│   ├── L5a_gmm.ipynb          # GMM 方法实现
+│   ├── L5b_gmm.ipynb          # GMM 方法应用
+│   ├── L7a_se.ipynb           # 标准误差估计
+│   ├── L7b_hw1.ipynb          # 作业1
+│   └── L8a_gls.ipynb          # GLS 方法
+├── .gitignore                 # Git 忽略文件
+├── LICENSE                    # 许可证文件
+└── README.md                  # 项目说明
 ```
 ---
 
@@ -159,13 +159,15 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ### 📌 Project Overview
 
-This repository provides practical implementations of econometric methods with real or simulated energy economics data. It covers:
+This repository provides systematic implementations of fundamental econometric methods, including OLS, 2SLS, GMM, GLS, and other core estimation techniques. All implementations are in Python, making it suitable for teaching and research reference.
+
+The project systematically implements the following econometric methods:
 
 - Ordinary Least Squares (OLS)  
 - Two-Stage Least Squares (2SLS)  
 - Generalized Method of Moments (GMM)  
 - Generalized Least Squares (GLS)  
-- Spatial econometrics (future)
+- Panel Data Methods (future)
 
 ---
 
