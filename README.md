@@ -47,7 +47,7 @@
 
 
 ```tree
-Econ_Projects/
+Econometrics_Practice/
 ├── Econometrics_Practice_2025/  # 主要练习代码
 │   ├── L1_test.py              # Python 基础测试
 │   ├── L2_notebook.ipynb       # Jupyter 基础操作
