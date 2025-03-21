@@ -7,6 +7,10 @@
     <a href="#中文">中文</a> | <a href="#english">English</a>
 </p>
 
+<p align="center">
+    作者 / Author: 吉庆 (Qing Ji)
+</p>
+
 ---
 
 ## 🧭 目录 / Table of Contents
