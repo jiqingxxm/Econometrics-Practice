@@ -1,11 +1,11 @@
-<p align="right">
-    <a href="#中文">中文</a> | <a href="#english">English</a>
-</p>
-
 # 📊 Econometrics-Practice
 
 > A practical econometrics project focusing on applications in energy economics.  
 > 一个聚焦能源经济领域应用的计量经济学实战项目。
+
+<p align="center">
+    <a href="#中文">中文</a> | <a href="#english">English</a>
+</p>
 
 ---
 
