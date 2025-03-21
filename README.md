@@ -14,7 +14,6 @@
 - [📌 项目概览 / Project Overview](#项目概览--project-overview)
 - [🗂 项目结构 / Project Structure](#项目结构--project-structure)
 - [🧰 技术栈 / Tech Stack](#技术栈--tech-stack)
-- [📚 学习路径 / Learning Path](#学习路径--learning-path)
 - [⚙️ 环境配置 / Environment Setup](#环境配置--environment-setup)
 - [🚀 使用指南 / How to Use](#使用指南--how-to-use)
 - [📌 注意事项 / Notes](#注意事项--notes)
@@ -41,26 +40,15 @@
 
 ### 🗂 项目结构 / Project Structure
 
-```bash
-Econ_Projects/
-├── 能源数据分析实践_2025/
-│   ├── L1_test.py
-│   ├── L2_notebook.ipynb
-│   ├── L3a_ols.ipynb
-│   ├── L3b_ols.ipynb
-│   ├── L4a_2sls.ipynb
-│   ├── L4b_2sls.ipynb
-│   ├── L5a_gmm.ipynb
-│   ├── L5b_gmm.ipynb
-│   ├── L7a_se.ipynb
-│   ├── L7b_hw1.ipynb
-│   ├── L8a_gls.ipynb
-│   └── L9_hw1_answer.ipynb
-├── .vscode/
-├── .gitignore
-├── LICENSE
-└── README.md
-```
+| 阶段 / Stage          | 文件 / Files             | 内容 / Topics                             |
+|------------------------|--------------------------|--------------------------------------------|
+| Python 基础            | L1, L2                   | Python 语法与 Notebook 基础                 |
+| OLS 方法               | L3a, L3b                 | OLS 理论与实证实现                         |
+| 工具变量 / 2SLS        | L4a, L4b                 | 工具变量法与两阶段最小二乘                 |
+| GMM 方法               | L5a, L5b                 | 广义矩估计理论与应用                       |
+| 标准误差估计           | L7a                      | 鲁棒标准误差推导                           |
+| GLS 方法               | L8a                      | 广义最小二乘法建模                         |
+| 综合练习               | L7b, L9                  | 作业与参考答案                             |
 
 ---
 
@@ -82,19 +70,6 @@ Econ_Projects/
 
 ---
 
-### 📚 学习路径 / Learning Path
-
-| 阶段 / Stage          | 文件 / Files             | 内容 / Topics                             |
-|------------------------|--------------------------|--------------------------------------------|
-| Python 基础            | L1, L2                   | Python 语法与 Notebook 基础                 |
-| OLS 方法               | L3a, L3b                 | OLS 理论与实证实现                         |
-| 工具变量 / 2SLS        | L4a, L4b                 | 工具变量法与两阶段最小二乘                 |
-| GMM 方法               | L5a, L5b                 | 广义矩估计理论与应用                       |
-| 标准误差估计           | L7a                      | 鲁棒标准误差推导                           |
-| GLS 方法               | L8a                      | 广义最小二乘法建模                         |
-| 综合练习               | L7b, L9                  | 作业与参考答案                             |
-
----
 
 ### ⚙️ 环境配置 / Environment Setup
 
@@ -173,11 +148,6 @@ This repository provides practical implementations of econometric methods with r
 
 ---
 
-### 📚 Learning Path
-
-(See table above)
-
----
 
 ### ⚙️ Environment Setup
 
