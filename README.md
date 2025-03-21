@@ -45,34 +45,18 @@
 
 ### 🗂 项目结构 / Project Structure
 
-| 课程编号 / Course      | 文件 / Files         | 主题 / Topics                    |
-|-----------------------|---------------------|----------------------------------|
-| L1 - Python 基础      | L1_test.py         | Python 语法基础测试               |
-| L2 - Jupyter 基础     | L2_notebook.ipynb  | Jupyter Notebook 基本操作         |
-| L3 - OLS 方法         | L3a_ols.ipynb      | OLS 方法实现与推导                |
-|                      | L3b_ols.ipynb      | OLS 实证应用                     |
-| L4 - 工具变量方法      | L4a_2sls.ipynb     | 2SLS 方法实现与推导              |
-|                      | L4b_2sls.ipynb     | 2SLS 实证应用                    |
-| L5 - GMM 方法         | L5a_gmm.ipynb      | GMM 方法实现与推导               |
-|                      | L5b_gmm.ipynb      | GMM 实证应用                     |
-| L7 - 标准误差估计      | L7a_se.ipynb       | 稳健标准误差推导                 |
-|                      | L7b_hw1.ipynb      | 第一次作业                       |
-| L8 - GLS 方法         | L8a_gls.ipynb      | GLS 方法实现与应用               |
 
 ```tree
 Econ_Projects/
 ├── Econometrics_Practice_2025/  # 主要练习代码
 │   ├── L1_test.py              # Python 基础测试
 │   ├── L2_notebook.ipynb       # Jupyter 基础操作
-│   ├── L3a_ols.ipynb          # OLS 方法实现
-│   ├── L3b_ols.ipynb          # OLS 方法应用
-│   ├── L4a_2sls.ipynb         # 2SLS 方法实现
-│   ├── L4b_2sls.ipynb         # 2SLS 方法应用
-│   ├── L5a_gmm.ipynb          # GMM 方法实现
-│   ├── L5b_gmm.ipynb          # GMM 方法应用
-│   ├── L7a_se.ipynb           # 标准误差估计
-│   ├── L7b_hw1.ipynb          # 作业1
-│   └── L8a_gls.ipynb          # GLS 方法
+│   ├── L3_ols.ipynb          # OLS 方法实现与应用
+│   ├── L4_2sls.ipynb         # 2SLS 方法实现与应用
+│   ├── L5_gmm.ipynb          # GMM 方法实现与应用
+│   ├── L6_se.ipynb           # 标准误差估计
+│   ├── L7_hw1.ipynb          # 作业1
+│   └── L8_gls.ipynb          # GLS 方法实现与应用
 ├── .gitignore                 # Git 忽略文件
 ├── LICENSE                    # 许可证文件
 └── README.md                  # 项目说明
