@@ -1,6 +1,7 @@
 # 📊 Python Econometrics Practice
 
 > A practical tutorial on econometric methods using Python, with step-by-step code and explanations.
+
 > 基于 Python 的计量经济学实战教程，涵盖方法讲解与完整代码演示。
 
 <p align="center">
