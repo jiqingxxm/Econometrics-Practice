@@ -151,7 +151,6 @@ jupyter notebook
 ### 📄 许可证 / License
 
 本项目采用 MIT 开源许可证。详见 `LICENSE` 文件。  
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ---
 
