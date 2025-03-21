@@ -31,4 +31,6 @@ venv/
 
 
 # 忽略私人文件夹
-Econometrics_Practice_2025/private/
+private/
+**/private/
+Econometrics_Practice_2025/private/*
