@@ -1,3 +1,7 @@
+<p align="right">
+    <a href="#中文">中文</a> | <a href="#english">English</a>
+</p>
+
 # 📊 Econometrics-Practice
 
 > A practical econometrics project focusing on applications in energy economics.  
@@ -63,33 +67,32 @@ Econ_Projects/
 ### 🧰 技术栈 / Tech Stack
 
 #### 核心工具 Core Tools
-
 - Python ≥ 3.8
 - Jupyter Notebook / Jupyter Lab
 
 #### 主要依赖库 Main Libraries
 
-| 库名 / Library       | 用途说明 / Description            |
-| -------------------- | --------------------------------- |
-| pandas               | 数据处理 / Data manipulation      |
-| numpy                | 数值计算 / Numerical computing    |
-| statsmodels          | 计量经济建模 / Econometric models |
-| scikit-learn         | 辅助建模 / ML utilities           |
-| matplotlib & seaborn | 可视化 / Visualization            |
+| 库名 / Library      | 用途说明 / Description            |
+|---------------------|-----------------------------------|
+| pandas              | 数据处理 / Data manipulation      |
+| numpy               | 数值计算 / Numerical computing    |
+| statsmodels         | 计量经济建模 / Econometric models |
+| scikit-learn        | 辅助建模 / ML utilities           |
+| matplotlib & seaborn| 可视化 / Visualization            |
 
 ---
 
 ### 📚 学习路径 / Learning Path
 
-| 阶段 / Stage    | 文件 / Files | 内容 / Topics               |
-| --------------- | ------------ | --------------------------- |
-| Python 基础     | L1, L2       | Python 语法与 Notebook 基础 |
-| OLS 方法        | L3a, L3b     | OLS 理论与实证实现          |
-| 工具变量 / 2SLS | L4a, L4b     | 工具变量法与两阶段最小二乘  |
-| GMM 方法        | L5a, L5b     | 广义矩估计理论与应用        |
-| 标准误差估计    | L7a          | 鲁棒标准误差推导            |
-| GLS 方法        | L8a          | 广义最小二乘法建模          |
-| 综合练习        | L7b, L9      | 作业与参考答案              |
+| 阶段 / Stage          | 文件 / Files             | 内容 / Topics                             |
+|------------------------|--------------------------|--------------------------------------------|
+| Python 基础            | L1, L2                   | Python 语法与 Notebook 基础                 |
+| OLS 方法               | L3a, L3b                 | OLS 理论与实证实现                         |
+| 工具变量 / 2SLS        | L4a, L4b                 | 工具变量法与两阶段最小二乘                 |
+| GMM 方法               | L5a, L5b                 | 广义矩估计理论与应用                       |
+| 标准误差估计           | L7a                      | 鲁棒标准误差推导                           |
+| GLS 方法               | L8a                      | 广义最小二乘法建模                         |
+| 综合练习               | L7b, L9                  | 作业与参考答案                             |
 
 ---
 
@@ -131,7 +134,6 @@ jupyter notebook
 ### 📝 更新记录 / Changelog
 
 #### 2024-01-xx
-
 - 增加项目结构说明  
 - 添加学习路径与各模块介绍  
 - 补充安装说明与使用建议
@@ -200,7 +202,6 @@ This repository provides practical implementations of econometric methods with r
 ### 📝 Changelog
 
 #### 2024-01-xx
-
 - Added project structure and learning path  
 - Improved installation instructions  
 - Added usage guidance
