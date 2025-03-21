@@ -1,4 +1,4 @@
-# 📊 Python Econometrics Practice
+# 📊 Econometrics Practice by Python
 
 > A practical tutorial on econometric methods using Python, with step-by-step code and explanations.
 
