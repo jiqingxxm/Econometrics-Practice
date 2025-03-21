@@ -1,137 +1,212 @@
-+++markdown
+# 📊 Econometrics-Practice
 
-📊 Econometrics-Practice
+> A practical econometrics project focusing on applications in energy economics.  
+> 一个聚焦能源经济领域应用的计量经济学实战项目。
 
-本仓库收录了计量经济学方法在能源经济领域中的应用实践，涵盖 OLS、2SLS、GMM、GLS 及空间计量等主流方法，并通过 Python 代码系统实现，适用于教学与科研参考。
+---
 
-⸻
+## 🧭 目录 / Table of Contents
 
-📌 项目概览
+- [📌 项目概览 / Project Overview](#项目概览--project-overview)
+- [🗂 项目结构 / Project Structure](#项目结构--project-structure)
+- [🧰 技术栈 / Tech Stack](#技术栈--tech-stack)
+- [📚 学习路径 / Learning Path](#学习路径--learning-path)
+- [⚙️ 环境配置 / Environment Setup](#环境配置--environment-setup)
+- [🚀 使用指南 / How to Use](#使用指南--how-to-use)
+- [📌 注意事项 / Notes](#注意事项--notes)
+- [📝 更新记录 / Changelog](#更新记录--changelog)
+- [📄 许可证 / License](#许可证--license)
 
-本项目系统性地实践了以下计量方法，旨在帮助学习者理解模型背后的数学逻辑及其在能源经济数据中的实际应用：
-	•	OLS：普通最小二乘法
-	•	2SLS：两阶段最小二乘法
-	•	GMM：广义矩估计
-	•	GLS：广义最小二乘法
-	•	空间计量方法：预留拓展
+---
 
-⸻
+## 中文
 
-🗂 项目结构
+### 📌 项目概览 / Project Overview
 
+本仓库收录了计量经济学方法在能源经济领域中的应用实践，涵盖 OLS、2SLS、GMM、GLS 及空间计量等主流方法，并通过 Python 代码系统实现，适合教学与研究参考。
+
+本项目系统性地实践了以下计量经济学方法：
+
+- 普通最小二乘法（OLS）  
+- 两阶段最小二乘法（2SLS）  
+- 广义矩估计（GMM）  
+- 广义最小二乘法（GLS）  
+- 空间计量方法（预留拓展）
+
+---
+
+### 🗂 项目结构 / Project Structure
+
+```bash
 Econ_Projects/
-├── 能源数据分析实践_2025/       # 主要练习代码
-│   ├── L1_test.py              # Python 基础测试
-│   ├── L2_notebook.ipynb       # Jupyter Notebook 入门
-│   ├── L3a_ols.ipynb           # OLS 理论推导与实现
-│   ├── L3b_ols.ipynb           # OLS 实证应用
-│   ├── L4a_2sls.ipynb          # 2SLS 理论与实现
-│   ├── L4b_2sls.ipynb          # 2SLS 实证应用
-│   ├── L5a_gmm.ipynb           # GMM 方法实现
-│   ├── L5b_gmm.ipynb           # GMM 应用案例
-│   ├── L7a_se.ipynb            # 标准误估计与鲁棒处理
-│   ├── L7b_hw1.ipynb           # 综合练习：作业1
-│   ├── L8a_gls.ipynb           # GLS 方法实现
-│   └── L9_hw1_answer.ipynb     # 作业1参考答案
-├── .vscode/                    # VS Code 配置
-├── .gitignore                 # Git 忽略配置
-├── LICENSE                    # 许可证文件
-└── README.md                  # 项目说明文档
+├── 能源数据分析实践_2025/
+│   ├── L1_test.py
+│   ├── L2_notebook.ipynb
+│   ├── L3a_ols.ipynb
+│   ├── L3b_ols.ipynb
+│   ├── L4a_2sls.ipynb
+│   ├── L4b_2sls.ipynb
+│   ├── L5a_gmm.ipynb
+│   ├── L5b_gmm.ipynb
+│   ├── L7a_se.ipynb
+│   ├── L7b_hw1.ipynb
+│   ├── L8a_gls.ipynb
+│   └── L9_hw1_answer.ipynb
+├── .vscode/
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
+---
 
+### 🧰 技术栈 / Tech Stack
 
-⸻
+#### 核心工具 Core Tools
 
-🧰 技术栈
+- Python ≥ 3.8
+- Jupyter Notebook / Jupyter Lab
 
-🔧 核心工具
-	•	Python ≥ 3.8
-	•	Jupyter Notebook / Jupyter Lab
+#### 主要依赖库 Main Libraries
 
-📦 主要依赖库
+| 库名 / Library       | 用途说明 / Description            |
+| -------------------- | --------------------------------- |
+| pandas               | 数据处理 / Data manipulation      |
+| numpy                | 数值计算 / Numerical computing    |
+| statsmodels          | 计量经济建模 / Econometric models |
+| scikit-learn         | 辅助建模 / ML utilities           |
+| matplotlib & seaborn | 可视化 / Visualization            |
 
-库名	用途说明
-pandas	数据处理与分析
-numpy	数值计算
-statsmodels	计量经济建模与推断
-scikit-learn	辅助建模与评估工具
-matplotlib	数据可视化
-seaborn	高级统计图形绘制
+---
 
+### 📚 学习路径 / Learning Path
 
+| 阶段 / Stage    | 文件 / Files | 内容 / Topics               |
+| --------------- | ------------ | --------------------------- |
+| Python 基础     | L1, L2       | Python 语法与 Notebook 基础 |
+| OLS 方法        | L3a, L3b     | OLS 理论与实证实现          |
+| 工具变量 / 2SLS | L4a, L4b     | 工具变量法与两阶段最小二乘  |
+| GMM 方法        | L5a, L5b     | 广义矩估计理论与应用        |
+| 标准误差估计    | L7a          | 鲁棒标准误差推导            |
+| GLS 方法        | L8a          | 广义最小二乘法建模          |
+| 综合练习        | L7b, L9      | 作业与参考答案              |
 
-⸻
+---
 
-📚 学习路径推荐
+### ⚙️ 环境配置 / Environment Setup
 
-阶段	对应文件	学习内容
-🧩 Python 基础	L1_test.py, L2_notebook.ipynb	Python 语言及 Notebook 基础操作
-📈 回归分析基础	L3a_ols.ipynb, L3b_ols.ipynb	OLS 理论与实证实践
-🔁 工具变量方法	L4a_2sls.ipynb, L4b_2sls.ipynb	2SLS 模型及工具变量法
-⚙️ GMM 方法	L5a_gmm.ipynb, L5b_gmm.ipynb	GMM 推导与案例分析
-🧮 标准误估计	L7a_se.ipynb	鲁棒标准误估计与异方差处理
-📉 GLS 方法	L8a_gls.ipynb	广义最小二乘法实现
-📝 综合练习	L7b_hw1.ipynb, L9_hw1_answer.ipynb	综合作业与参考答案
+建议使用 Conda 虚拟环境进行依赖管理：
 
-
-
-⸻
-
-⚙️ 环境配置指南
-
-建议使用 Conda 创建独立环境，确保依赖一致性：
-
-# 创建虚拟环境
-conda create -n econ_env python=3.8
-
-# 激活环境
-conda activate econ_env
-
-# 安装主要依赖
+```bash
+conda create -n myenv_econ python=3.8
+conda activate myenv_econ
 conda install pandas numpy statsmodels scikit-learn matplotlib seaborn jupyter
+```
 
+---
 
+### 🚀 使用指南 / How to Use
 
-⸻
+```bash
+# 克隆仓库 / Clone the repository
+git clone https://github.com/yourusername/Econometrics-Practice.git
 
-🚀 运行项目指南
-
-# 1. 克隆项目仓库
-git clone git@github.com:jiqingxxm/Econometrics-Practice.git
-
-# 2. 进入项目目录
+# 进入目录 / Enter the project folder
 cd Econometrics-Practice
 
-# 3. 启动 Jupyter Notebook/Lab，开始学习
+# 启动 Jupyter Notebook / Launch Jupyter
 jupyter notebook
+```
 
-📌 建议顺序学习，并在动手过程中深入理解模型与数据背后的逻辑。
+---
 
-⸻
+### 📌 注意事项 / Notes
 
-✅ 注意事项
-	•	按照推荐顺序逐步学习，循序渐进；
-	•	强烈建议先独立完成作业，再查看参考答案；
-	•	所有代码基于 Python 3.8 及主流数据科学库，确保环境一致性；
-	•	空间计量方法后续版本将逐步添加，敬请关注。
+- 推荐按照学习路径顺序完成练习；
+- 作业部分请先独立完成，再查看答案；
+- 数据集基于真实或模拟的能源经济情境。
 
-⸻
+---
 
-📅 更新记录
+### 📝 更新记录 / Changelog
 
-2024-01-xx
-	•	优化项目结构与命名
-	•	添加模块化学习路径推荐
-	•	增补依赖说明与运行方式
-	•	丰富练习与作业参考
+#### 2024-01-xx
 
-⸻
+- 增加项目结构说明  
+- 添加学习路径与各模块介绍  
+- 补充安装说明与使用建议
 
-📄 许可证
+---
 
-本项目采用 MIT License 开源协议，详见 LICENSE 文件。
+### 📄 许可证 / License
 
-⸻
+本项目采用 MIT 开源许可证。详见 `LICENSE` 文件。  
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-如果你在使用过程中有任何建议或反馈，欢迎提交 Issue 或 PR！
-+++
+---
+
+## English
+
+### 📌 Project Overview
+
+This repository provides practical implementations of econometric methods with real or simulated energy economics data. It covers:
+
+- Ordinary Least Squares (OLS)  
+- Two-Stage Least Squares (2SLS)  
+- Generalized Method of Moments (GMM)  
+- Generalized Least Squares (GLS)  
+- Spatial econometrics (future)
+
+---
+
+### 🗂 Project Structure
+
+(See structure above)
+
+---
+
+### 🧰 Tech Stack
+
+(See table above)
+
+---
+
+### 📚 Learning Path
+
+(See table above)
+
+---
+
+### ⚙️ Environment Setup
+
+(See steps above)
+
+---
+
+### 🚀 How to Use
+
+(See instructions above)
+
+---
+
+### 📌 Notes
+
+- Follow the suggested learning path for best results  
+- Try solving the exercises independently before checking the solutions  
+- All data is based on real or simulated energy economics scenarios
+
+---
+
+### 📝 Changelog
+
+#### 2024-01-xx
+
+- Added project structure and learning path  
+- Improved installation instructions  
+- Added usage guidance
+
+---
+
+### 📄 License
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
