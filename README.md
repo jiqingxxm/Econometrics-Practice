@@ -1,4 +1,4 @@
-# 📊 Econometrics-Practice
+# 📊 Python Econometrics Practice
 
 > A hands-on Python implementation of econometric methods with step-by-step tutorials.  
 > 一个基于 Python 的计量经济学方法实现教程，包含详细的代码实践。
