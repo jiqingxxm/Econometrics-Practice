@@ -13,6 +13,8 @@
 - 空间计量经济学方法
 
 ## 项目结构
+
+```tree
 Econ_Projects/
 ├── 能源数据分析实践_2025/    # 主要练习代码
 │   ├── L1_test.py           # Python 基础测试
@@ -31,6 +33,7 @@ Econ_Projects/
 ├── .gitignore             # Git 忽略文件
 ├── LICENSE                # 许可证文件
 └── README.md              # 项目说明
+```
 
 ## 技术栈
 
