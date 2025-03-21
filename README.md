@@ -94,12 +94,19 @@ conda install pandas numpy statsmodels scikit-learn matplotlib seaborn jupyter
 
 ```bash
 # 克隆仓库 / Clone the repository
-git clone https://github.com/yourusername/Econometrics-Practice.git
+git clone git@github.com:jiqingxxm/Econometrics-Practice.git
 
 # 进入目录 / Enter the project folder
 cd Econometrics-Practice
 
-# 启动 Jupyter Notebook / Launch Jupyter
+# 创建并激活 conda 环境 / Create and activate conda environment
+conda create -n myenv_econ python=3.8
+conda activate myenv_econ
+
+# 安装依赖 / Install dependencies
+conda install pandas numpy statsmodels scikit-learn matplotlib seaborn jupyter
+
+# 启动 Jupyter / Launch Jupyter
 jupyter notebook
 ```
 
