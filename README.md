@@ -141,7 +141,7 @@ jupyter notebook
 
 ### 📝 更新记录 / Changelog
 
-#### 2024-01-xx
+#### 2025-03-21
 - 增加项目结构说明  
 - 添加学习路径与各模块介绍  
 - 补充安装说明与使用建议
@@ -250,7 +250,7 @@ jupyter notebook
 
 ### 📝 Changelog
 
-#### 2024-01-xx
+#### 2025-03-21
 - Added project structure and learning path  
 - Improved installation instructions  
 - Added usage guidance
