@@ -179,15 +179,12 @@ The project systematically implements the following econometric methods:
 |---------------------|--------------------|---------------------------------|
 | L1 - Python Basics  | L1_test.py        | Python Syntax Testing           |
 | L2 - Jupyter Basics | L2_notebook.ipynb | Jupyter Notebook Operations     |
-| L3 - OLS Method     | L3a_ols.ipynb     | OLS Implementation & Derivation |
-|                     | L3b_ols.ipynb     | OLS Empirical Applications     |
-| L4 - IV Method      | L4a_2sls.ipynb    | 2SLS Implementation            |
-|                     | L4b_2sls.ipynb    | 2SLS Applications             |
-| L5 - GMM Method     | L5a_gmm.ipynb     | GMM Implementation             |
-|                     | L5b_gmm.ipynb     | GMM Applications              |
-| L7 - SE Estimation  | L7a_se.ipynb      | Robust SE Derivation           |
-|                     | L7b_hw1.ipynb     | First Assignment              |
-| L8 - GLS Method     | L8a_gls.ipynb     | GLS Implementation & Apps      |
+| L3 - OLS Method     | L3_ols.ipynb     | OLS Implementation |
+| L4 - IV Method      | L4_2sls.ipynb    | 2SLS Implementation            |
+| L5 - GMM Method     | L5_gmm.ipynb     | GMM Implementation             |
+| L6 - SE Estimation  | L6_se.ipynb      | Robust SE Derivation           |
+| L7 - homework       | L7_hw1.ipynb     | First Assignment              |
+| L8 - GLS Method     | L8_gls.ipynb     | GLS Implementation      |
 
 ---
 
