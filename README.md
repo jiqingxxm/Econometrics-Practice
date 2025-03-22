@@ -16,20 +16,20 @@
 
 ## 🧭 目录 / Table of Contents
 
-- [� Python for Econometrics: A Step-by-Step Guide](#-python-for-econometrics-a-step-by-step-guide)
+- [📊 Python for Econometrics: A Step-by-Step Guide](#-python-for-econometrics-a-step-by-step-guide)
   - [🧭 目录 / Table of Contents](#-目录--table-of-contents)
   - [中文](#中文)
-    - [📌 项目概览 / Project Overview](#-项目概览--project-overview)
-    - [🗂 项目结构 / Project Structure](#-项目结构--project-structure)
-    - [🧰 技术栈 / Tech Stack](#-技术栈--tech-stack)
-      - [核心工具 Core Tools](#核心工具-core-tools)
-      - [主要依赖库 Main Libraries](#主要依赖库-main-libraries)
-    - [⚙️ 环境配置 / Environment Setup](#️-环境配置--environment-setup)
-    - [🚀 使用指南 / How to Use](#-使用指南--how-to-use)
-    - [📌 注意事项 / Notes](#-注意事项--notes)
-    - [📝 更新记录 / Changelog](#-更新记录--changelog)
+    - [📌 项目概览](#-项目概览)
+    - [🗂 项目结构](#-项目结构)
+    - [🧰 技术栈](#-技术栈)
+      - [核心工具](#核心工具)
+      - [主要依赖库](#主要依赖库)
+    - [⚙️ 环境配置](#️-环境配置)
+    - [🚀 使用指南](#-使用指南)
+    - [📌 注意事项](#-注意事项)
+    - [📝 更新记录](#-更新记录)
       - [2025-03-21](#2025-03-21)
-    - [📄 许可证 / License](#-许可证--license)
+    - [📄 许可证](#-许可证)
   - [English](#english)
     - [📌 Project Overview](#-project-overview)
     - [🗂 Project Structure](#-project-structure)
@@ -47,7 +47,7 @@
 
 ## 中文
 
-### 📌 项目概览 / Project Overview
+### 📌 项目概览
 
 本仓库系统性地实现了计量经济学的基础方法，包括 OLS、2SLS、GMM、GLS 等核心估计方法，并通过 Python 代码进行实现，适合教学与研究参考。
 
@@ -61,7 +61,7 @@
 
 ---
 
-### 🗂 项目结构 / Project Structure
+### 🗂 项目结构
 
 
 ```tree
@@ -81,13 +81,13 @@ Econometrics_Practice/
 ```
 ---
 
-### 🧰 技术栈 / Tech Stack
+### 🧰 技术栈
 
-#### 核心工具 Core Tools
+#### 核心工具
 - Python ≥ 3.8
 - Jupyter Notebook / Jupyter Lab
 
-#### 主要依赖库 Main Libraries
+#### 主要依赖库
 
 | 库名 / Library      | 用途说明 / Description            |
 |---------------------|-----------------------------------|
@@ -100,7 +100,7 @@ Econometrics_Practice/
 ---
 
 
-### ⚙️ 环境配置 / Environment Setup
+### ⚙️ 环境配置
 
 建议使用 Conda 虚拟环境进行依赖管理：
 
@@ -112,7 +112,7 @@ conda install pandas numpy statsmodels scikit-learn matplotlib seaborn jupyter
 
 ---
 
-### 🚀 使用指南 / How to Use
+### 🚀 使用指南
 
 ```bash
 # 克隆仓库 / Clone the repository
@@ -134,7 +134,7 @@ jupyter notebook
 
 ---
 
-### 📌 注意事项 / Notes
+### 📌 注意事项
 
 - 推荐按照学习路径顺序完成练习；
 - 作业部分请先独立完成，再查看答案；
@@ -142,7 +142,7 @@ jupyter notebook
 
 ---
 
-### 📝 更新记录 / Changelog
+### 📝 更新记录
 
 #### 2025-03-21
 - 增加项目结构说明  
@@ -151,7 +151,7 @@ jupyter notebook
 
 ---
 
-### 📄 许可证 / License
+### 📄 许可证
 
 本项目采用 MIT 开源许可证。详见 `LICENSE` 文件。  
 
