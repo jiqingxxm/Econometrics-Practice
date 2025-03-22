@@ -1,4 +1,4 @@
-# 📊 Python for Econometrics: A Step-by-Step Guide
+# 📊 Python for Econometrics: Theory and Practice
 
 > A practical tutorial on econometric methods using Python, with step-by-step code and explanations.
 
@@ -16,7 +16,7 @@
 
 ## 🧭 目录 / Table of Contents
 
-- [📊 Python for Econometrics: A Step-by-Step Guide](#-python-for-econometrics-a-step-by-step-guide)
+- [📊 Python for Econometrics: Theory and Practice](#-python-for-econometrics-theory-and-practice)
   - [🧭 目录 / Table of Contents](#-目录--table-of-contents)
   - [中文](#中文)
     - [📌 项目概览](#-项目概览)
