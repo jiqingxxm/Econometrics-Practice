@@ -53,10 +53,10 @@
 
 本项目系统性地实践了以下计量经济学方法：
 
-- 普通最小二乘法（OLS）  
-- 两阶段最小二乘法（2SLS）  
-- 广义矩估计（GMM）  
-- 广义最小二乘法（GLS）  
+- 普通最小二乘法（OLS）
+- 两阶段最小二乘法（2SLS）
+- 广义矩估计（GMM）
+- 广义最小二乘法（GLS）
 - 面板数据方法（预留拓展）
 
 ---
@@ -67,17 +67,18 @@
 ```tree
 Econometrics_Practice/
 ├── Econometrics_Practice_2025/  # 主要练习代码
-│   ├── L1_test.py              # Python 基础测试
-│   ├── L2_notebook.ipynb       # Jupyter 基础操作
-│   ├── L3_ols.ipynb          # OLS 方法实现与应用
-│   ├── L4_2sls.ipynb         # 2SLS 方法实现与应用
-│   ├── L5_gmm.ipynb          # GMM 方法实现与应用
-│   ├── L6_se.ipynb           # 标准误差估计
-│   ├── L7_hw1.ipynb          # 作业1
-│   └── L8_gls.ipynb          # GLS 方法实现与应用
-├── .gitignore                 # Git 忽略文件
-├── LICENSE                    # 许可证文件
-└── README.md                  # 项目说明
+│   ├── L1_test.py               # Python 基础测试
+│   ├── L2_notebook.ipynb        # Jupyter 基础操作
+│   ├── L3_ols.ipynb             # OLS 方法实现与应用
+│   ├── L4_2sls.ipynb            # 2SLS 方法实现与应用
+│   ├── L5_gmm.ipynb             # GMM 方法实现与应用
+│   ├── L6_se.ipynb              # 标准误差估计
+│   ├── L7_hw1.ipynb             # 作业1
+│   ├── L8_gls.ipynb             # GLS 方法实现与应用
+│   └── L9_hw1_answer.ipynb      # GLS 方法实现与应用
+├── .gitignore                   # Git 忽略文件
+├── LICENSE                      # 许可证文件
+└── README.md                    # 项目说明
 ```
 ---
 
@@ -144,16 +145,16 @@ jupyter notebook
 
 ### 📝 更新记录
 
-#### 2025-03-21
-- 增加项目结构说明  
-- 添加学习路径与各模块介绍  
+#### 2025-03-25
+- 增加项目结构说明
+- 添加学习路径与各模块介绍
 - 补充安装说明与使用建议
 
 ---
 
 ### 📄 许可证
 
-本项目采用 MIT 开源许可证。详见 `LICENSE` 文件。  
+本项目采用 MIT 开源许可证。详见 `LICENSE` 文件。
 
 ---
 
@@ -165,26 +166,27 @@ This repository provides systematic implementations of fundamental econometric m
 
 The project systematically implements the following econometric methods:
 
-- Ordinary Least Squares (OLS)  
-- Two-Stage Least Squares (2SLS)  
-- Generalized Method of Moments (GMM)  
-- Generalized Least Squares (GLS)  
+- Ordinary Least Squares (OLS)
+- Two-Stage Least Squares (2SLS)
+- Generalized Method of Moments (GMM)
+- Generalized Least Squares (GLS)
 - Panel Data Methods (future)
 
 ---
 
 ### 🗂 Project Structure
 
-| Course No.           | Files              | Topics                           |
+| Course No.          | Files              | Topics                          |
 |---------------------|--------------------|---------------------------------|
-| L1 - Python Basics  | L1_test.py        | Python Syntax Testing           |
-| L2 - Jupyter Basics | L2_notebook.ipynb | Jupyter Notebook Operations     |
-| L3 - OLS Method     | L3_ols.ipynb     | OLS Implementation |
-| L4 - IV Method      | L4_2sls.ipynb    | 2SLS Implementation            |
-| L5 - GMM Method     | L5_gmm.ipynb     | GMM Implementation             |
-| L6 - SE Estimation  | L6_se.ipynb      | Robust SE Derivation           |
-| L7 - homework       | L7_hw1.ipynb     | First Assignment              |
-| L8 - GLS Method     | L8_gls.ipynb     | GLS Implementation      |
+| L1 - Python Basics  | L1_test.py         | Python Syntax Testing           |
+| L2 - Jupyter Basics | L2_notebook.ipynb  | Jupyter Notebook Operations     |
+| L3 - OLS Method     | L3_ols.ipynb       | OLS Implementation              |
+| L4 - IV Method      | L4_2sls.ipynb      | 2SLS Implementation             |
+| L5 - GMM Method     | L5_gmm.ipynb       | GMM Implementation              |
+| L6 - SE Estimation  | L6_se.ipynb        | Robust SE Derivation            |
+| L7 - HW1            | L7_hw1.ipynb       | First Assignment                |
+| L8 - GLS Method     | L8_gls.ipynb       | GLS Implementation              |
+| L9 - HW1 answer     | L9_hw1_answer.ipynb| First Assignment Answer         |
 
 ---
 
@@ -241,17 +243,17 @@ jupyter notebook
 
 ### 📌 Notes
 
-- Follow the suggested learning path for best results  
-- Try solving the exercises independently before checking the solutions  
+- Follow the suggested learning path for best results
+- Try solving the exercises independently before checking the solutions
 - All data is based on real or simulated energy economics scenarios
 
 ---
 
 ### 📝 Changelog
 
-#### 2025-03-21
-- Added project structure and learning path  
-- Improved installation instructions  
+#### 2025-03-25
+- Added project structure and learning path
+- Improved installation instructions
 - Added usage guidance
 
 ---
