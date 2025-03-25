@@ -186,7 +186,7 @@ The project systematically implements the following econometric methods:
 | L6 - SE Estimation  | L6_se.ipynb        | Robust SE Derivation            |
 | L7 - HW1            | L7_hw1.ipynb       | First Assignment                |
 | L8 - GLS Method     | L8_gls.ipynb       | GLS Implementation              |
-| L9 - HW1 answer     | L9_hw1_answer.ipynb| First Assignment Answer         |
+| L9 - HW1 Answer     | L9_hw1_answer.ipynb| First Assignment Answer         |
 
 ---
 
