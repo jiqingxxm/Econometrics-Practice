@@ -118,8 +118,7 @@ def focal_loss(y_true, y_pred, alpha=0.25, gamma=2.0):
 ## 8. KL散度（Kullback-Leibler Divergence）
 
 - **解释**：衡量两个概率分布之间的距离。
-- **公式**：
-  $
+- **公式**：$
   KL(P||Q) = \sum_i p(x_i) \log \left( \frac{p(x_i)}{q(x_i)} \right)
   $
 
